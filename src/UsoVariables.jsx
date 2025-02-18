@@ -1,10 +1,7 @@
-export const VariablesComponent = () => {
-    const saludo = 'Hola';
-    const destinatario = 'Mundo';
-  
-    return (
-      <div>
-        <h1>{saludo} {destinatario}</h1>
-      </div>
-    );
+export const UsoVariables = () => {
+    const nombre = 'Ana';
+    const apellido = 'Aramoni';
+    const nombreCompleto = `${nombre} ${apellido}`;
+    
+    (console.log(nombreCompleto));
   };
